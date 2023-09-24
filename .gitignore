@@ -248,3 +248,11 @@ dist
 # .vscode and .workspace
 .vscode/
 .vscode/.workspace
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
